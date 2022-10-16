@@ -1,0 +1,3 @@
+- 👋 Hi, I’m @KirKirKsd
+- 👀 I’m interested in Front-end and C#
+- 🌱 I’m currently learning Unity
