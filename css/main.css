@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+}
+
+nav .name {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 45px;
+    position: absolute;
+}
+
+nav .name:hover {
+    font-style: italic;
+}
+
+nav .navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+    width: 700px;
+    margin: 0 auto;
+}
+
+nav .navigation .to-up {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+nav .navigation .to-up:hover {
+    font-style: italic;
+}
+
+nav .navigation a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+nav .navigation a:hover {
+    font-style: italic;
+}
+
+header {
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 span {
+    font-weight: 900;
+}
+
+header h1 {
+    font-weight: 400;
+    font-size: 70px;
+}
+
+header .citata {
+    position: absolute;
+    margin-top: 100px;
+}
+
+header .citata span {
+    font-weight: 700;
+    font-style: italic;
+}
+
+section.about {
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+
+section.about .container {
+    width: 1080px;
+    height: 100%;
+    color: #000;
+    text-align: justify;
+    padding: 25px 100px;
+}
+
+.about h1 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.about .images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .images img {
+    height: 200px;
+}
+
+.about .after-images{
+    text-align: center;
+}
+
+section.programms {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-top: 50px;
+}
+
+.programms .container{
+    color: #000;
+}
+
+.programms h1 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.programms h5 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.programms .row {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.programms .card {
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(211, 211, 211);
+    align-items: center;
+}
+
+.programms .card img {
+    width: 150px;
+    border-radius: 90;
+    scale: 0.8;
+}
+
+.programms .card h4 {
+    margin-bottom: 20px;
+}
